@@ -22,7 +22,6 @@ class CircularQueue:
         elif self.front == self.rear:
             self.queue[self.front] = None
             self.front = self.rear = -1
-
         else:
             self.queue[self.front] = None
             self.front = (self.front + 1) % self.size
