@@ -29,3 +29,7 @@ queue.display()
 
 queue.dequeue()
 queue.dequeue()
+
+queue.enqueue(6)
+
+queue.display()
